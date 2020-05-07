@@ -1,0 +1,3 @@
+First we always break at main by using the 'b main'. This is a standard technique through which we have a breakpoint and then we can think
+of specific strategies for each puzzle. Usually there is a password-checker function and we somehow have to exploit it. In this puzzle, we 
+have do have a check-password function which got my attention. So 
