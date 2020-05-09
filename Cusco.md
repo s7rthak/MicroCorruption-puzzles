@@ -9,4 +9,4 @@ the stack has reserved 16 characters for password after putting 0x443c(*stop_pro
 change it to our liking. I first tried to go to address 0x452c but that didn't work and then I realized that we just have to unlock the door 
 and we would be done. So we can go to the address 0x4446 after completion of *login* function. Therefore simply type any 16 characters after
 which **FD** to denote 4644 which denotes the address 0x4446 and in this way the the **main** function after completion goes on to the 
-**unlock_door** function and the lock is cracked!
+**unlock_door** function and the lock is cracked! Optionally to safely stop program execution, we input 0000000000000000000000000000000046443c44 (hex should be ticked) as password to run the *stop_progExec* function after unlocking the door.
